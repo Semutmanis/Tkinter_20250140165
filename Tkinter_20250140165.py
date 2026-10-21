@@ -32,3 +32,5 @@ w1 = tk.Button(labelframe, text = "klick saya!", command = hellocallback)
 keluar = tk.Label(labelframe, text="hasil produksi: ")
 keluar.pack()
 w1.pack()
+
+top.mainloop()
