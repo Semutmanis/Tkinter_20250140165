@@ -28,3 +28,7 @@ e10 = tk.Entry(labelframe, bd = 5);e10.pack()
 def hellocallback():
   msg.showinfo(" --- HASIL PREDIKSI ---","Nilai kamu: " + e1.get() + e2.get() + e3.get() + e4.get() + e5.get() + e6.get() + e7.get() + e8.get() + e9.get() + e10.get() + " Masuk Di Jajaran TOP Prodi TEKNOLOGI INFORMASI ")
 w1 = tk.Button(labelframe, text = "klick saya!", command = hellocallback)
+
+keluar = tk.Label(labelframe, text="hasil produksi: ")
+keluar.pack()
+w1.pack()
